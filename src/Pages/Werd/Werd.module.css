@@ -1,0 +1,86 @@
+.wird-container {
+  direction: rtl;
+  text-align: center;
+  background: linear-gradient(to bottom, #f9f9f9, #e6f4ea);
+  min-height: 100vh;
+  padding: 30px;
+  font-family: "Cairo", sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  color: #2b7a0b;
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.section1{
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 5px auto;
+  max-width: 800px;
+  margin-top: 70px !important;
+}
+
+.section h3 {
+  color: #1c6c3e;
+  border-bottom: 2px solid #b6e2a1;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.ayahs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ayah {
+  background: #f3faf5;
+  padding: 8px;
+  border-radius: 10px;
+  line-height: 1.8;
+}
+
+.content {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 22px;
+  color: #777;
+}
+.backBtn {
+  background-color: #fff;
+  color: #1a6633;
+  border:solid .5px #1a6633;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-align: end;
+  
+}
+
+.backBtn:hover {
+  background-color: #0d4a22;
+  transform: scale(1.05);
+  color: #fff;
+}

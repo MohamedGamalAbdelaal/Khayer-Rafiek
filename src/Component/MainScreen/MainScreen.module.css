@@ -1,0 +1,163 @@
+.mainSection {
+  background-image: url('../../assets/images/download.jpeg');
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  padding: 40px 20px;
+}
+
+/* الحاوية الرئيسية */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  max-width: 1100px;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 50px 40px;
+}
+
+/* النص */
+.left {
+  flex: 1;
+  text-align: right;
+}
+
+.left h1 {
+  font-size: 2.4rem;
+  color: #1f5b3a;
+  margin-bottom: 15px;
+    font-family: "Ruwudu", serif;
+
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #2a4a3f;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.btnPrimary,
+.btnSecondary {
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btnPrimary {
+  background-color: #1f5b3a;
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  transform: scale(1.05);
+}
+
+.btnSecondary {
+  background-color: #c8dcc9;
+  color: #1f5b3a;
+}
+
+.btnSecondary:hover {
+  background-color: #b2c7b4;
+  transform: scale(1.05);
+}
+
+
+.right {
+  flex: 0 0 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  max-width: 300px;
+  transition: 0.4s ease;
+}
+
+.right img:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .actions {
+    justify-content: center;
+  }
+
+  .left h1 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .right {
+    flex: none;
+    margin-top: 20px;
+  }
+  .hero {
+    margin-top: 30px;
+  }
+
+  .right img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .left h1 {
+    font-size: 1.7rem;
+  }
+
+  .lead {
+    font-size: 0.95rem;
+  }
+  .hero {
+    margin-top: 30px;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    width: 100%;
+    text-align: center;
+  }
+}

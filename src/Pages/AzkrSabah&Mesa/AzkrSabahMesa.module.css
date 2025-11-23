@@ -1,0 +1,70 @@
+.bgSection {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('../../assets/images/2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  direction: rtl;
+  font-family: "Amiri", serif;
+}
+
+.backBtn {
+  background-color: #fff;
+  color: #1a6633;
+  border:solid .5px #1a6633;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-align: end;
+  
+}
+
+.backBtn:hover {
+  background-color: #0d4a22;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.title {
+  font-size: 2rem;
+  color: #1a6633;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item2 {
+  background-color: #ffffffdc;
+  border: 1px solid #c9eac9;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s ease;
+  text-align: right;
+  line-height: 1.8;
+}
+
+.item2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 128, 0, 0.15);
+  background-color: #f7fff7;
+}
+
+.zekrText {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.count {
+  color: #1b7a36;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+

@@ -1,0 +1,64 @@
+.splashContainer {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.splashContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scaleUp 1.4s ease;
+  
+}
+
+.splashImage {
+  width: 170px;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* كتابة تدريجية */
+.title, .subtitle {
+  color: var(--main);
+  white-space: normal;     /* يسمح بلفّ النص */
+  overflow: hidden;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--main);
+  border-right: none;       /* إزالة المؤشر لأن النص طويل */
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #04b338;
+  white-space: nowrap;      /* هذا قصير، ممكن نحتفظ به */
+  border-right: 2px solid #6b4f2a;
+}
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* تكبير لطيف */
+@keyframes scaleUp {
+  from { transform: scale(0.9); opacity: 0.6; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* حركة عائمة للصورة */
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
