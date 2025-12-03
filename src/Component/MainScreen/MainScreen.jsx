@@ -9,7 +9,7 @@ export default function MainScreen() {
     <div className={Style.mainSection}>
       <div className={Style.hero}>
         <div className={Style.left}>
-          <h1>معلم الناس الخير</h1>
+          <h1>رفيق اليوم</h1>
           <p className={Style.lead}>
             رفيقك اليومي نحو الطمأنينة — الرفيق الروحي في حياتك اليومية.
             <br />

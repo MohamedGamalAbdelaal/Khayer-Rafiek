@@ -12,7 +12,7 @@ export default function MyNav() {
           className={`position-fixed top-0 start-0 end-0 d-flex justify-content-between align-items-center px-5 py-4 ${styles.nav} `}
         >
           <Link to="/contact">
-            <button className={`${styles.btn1}`}>معلم الناس الخير</button>
+            <button className={`${styles.btn1}`}>رفيق اليوم</button>
             
           </Link>
           <div className=" text-decoration-none align-items-center gap-4 h-100 d-md-flex d-none">

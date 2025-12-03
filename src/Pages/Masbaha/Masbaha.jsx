@@ -14,13 +14,14 @@ export default function Masbaha() {
     <>
      <MyNav/>
     <div className={`${style.container}`}>
-      <div className={style.masbahaBox}>
+      <div className={style.masbahaBox} onClick={increase}>
         <div className={style.main}>{count}</div>
-        <div className={style.buttons}>
-          <button className={style.increase} onClick={increase}>+</button>
+        
+      </div>
+      <div className={style.buttons}>
+          {/* <button className={style.increase} onClick={increase}>+</button> */}
           <button className={style.decrease} onClick={reset}><FaArrowRotateRight /></button>
         </div>
-      </div>
     </div>
     <Footer/>
     </>

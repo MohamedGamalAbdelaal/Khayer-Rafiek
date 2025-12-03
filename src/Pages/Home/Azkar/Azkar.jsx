@@ -114,7 +114,7 @@ navigate('/azkarSabah')
           
         </Modal.Body>
       </Modal>
-  <div className="row d-flex justify-content-center align-items-center my-5 g-4">
+  <div className="row d-flex justify-content-center align-items-center m-4 g-4">
   {azkarList.map((zekr, index) => (
     <div className="col-lg-3 col-md-4 col-sm-6 col-12" key={index}>
       <div className={`${Style.item}`}>

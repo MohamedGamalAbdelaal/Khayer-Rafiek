@@ -3,8 +3,7 @@ import styles from './ٍSplashScreen.module.css'
 import image from '../../assets/images/5.jpg'
 function SplashScreen() {
   const text2 = "صدقة جارية عن روح والدي الكريم";
-  const text = "الراحلون عنا وإن طال الغياب بهم، باقون في القلب، ما غابوا ولا رحلوا.. أيها الراحلون عنا في عتمة الدرب لقد ظل الدرب بعدكم معتما..";
-
+  const text = "الراحلون عنا وإن طال الغياب بهم، باقون في القلب، ما غابوا ولا رحلوا.. "
   const [displayedText, setDisplayedText] = useState("");
   const [displayedText2, setDisplayedText2] = useState("");
 
@@ -28,7 +27,7 @@ function SplashScreen() {
         index++;
         if (index > text2.length) clearInterval(type);
       }, 90);
-    }, 1500);
+    }, 500);
 
     return () => clearTimeout(interval);
   }, []);
